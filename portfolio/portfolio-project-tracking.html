@@ -1,0 +1,93 @@
+<div id="portfolio-page" class="portfolio-page-content">
+  <div class="portfolio-page-wrapper">
+    <div class="portfolio-page-nav">
+      <div class="nav-item portfolio-page-prev-next">
+        <a class="ajax-page-load" href="portfolio-project-github.html"><i class="lnr lnr-chevron-left"></i></a>
+        <a class="ajax-page-load" href="portfolio-project-made.html"><i class="lnr lnr-chevron-right"></i></a>
+      </div>
+      <div class="nav-item portfolio-page-close-button">
+        <a id="portfolio-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-page-title">
+      <h1>Tracking Vehicle</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8 col-md-8 portfolio-block">
+        <div class="owl-carousel portfolio-page-carousel">
+          <div class="item">
+            <img src="./img/portfolio/TRACKING/Login.png" alt=""/>
+          </div>
+          <div class="item">
+            <img src="./img/portfolio/TRACKING/Dashboard.png" alt=""/>
+          </div>
+          <div class="item">
+            <img src="./img/portfolio/TRACKING/Detail.png" alt=""/>
+          </div>
+        </div>
+
+        <div class="p-30"></div>
+
+        <p> Feature : <br>
+          &bull; List Car & Maps<br>
+          &bull; Detail Car & Maps<br>
+          &bull; Profile</p>
+
+        <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').imagesLoaded(function(){
+                            $('.portfolio-page-carousel').owlCarousel({
+                                smartSpeed:1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight:true
+                            });
+                        });
+                    });
+
+
+        </script>
+      </div>
+
+      <div class="col-sm-4 col-md-4 portfolio-block">
+        <!-- Project Description -->
+        <div class="project-description">
+          <div class="block-title">
+            <h3>Description</h3>
+          </div>
+          <ul class="project-general-info">
+            <li><p><i class="lnr lnr-user"></i> M IQBAL F</p></li>
+            <li><p><i class="lnr lnr-calendar-full"></i> 27 Agustus, 2019</p></li>
+          </ul>
+
+          <p class="text-justify"><b>Tracking Vehicle</b> is an android application built with the Kotlin language whose main
+            purpose is to help registered user to track their vehicle.</p>
+          <!-- /Project Description -->
+
+          <!-- Technology -->
+          <div class="tags-block">
+            <div class="block-title">
+              <h3>Technology</h3>
+            </div>
+            <ul class="tags">
+              <li><a>Kotlin</a></li>
+              <li><a>Material Design</a></li>
+              <li><a>Retrofit2</a></li>
+              <li><a>Shared Preference</a></li>
+            </ul>
+          </div>
+          <!-- /Technology -->
+
+        </div>
+        <!-- Project Description -->
+      </div>
+    </div>
+
+  </div>
+</div>
